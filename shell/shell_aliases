@@ -43,6 +43,12 @@ alias tml="tmux list-sessions"
 alias tma="tmux -2 attach -t $1"
 alias tmk="tmux kill-session -t $1"
 
+alias mc="cd ~/Library/ApplicationSupport/minecraft/saves"
+alias mcs="cd ~/code/maincra"
+
+alias gbdm="git branch --merged | egrep -v \"(^\*|master|epic/air-transfers-template)\" | xargs git branch -d"
+alias sz="source ~/.zshrc"
+alias tmate-show="tmate display -p '#{tmate_ssh}'"
 
 #functions
 function feature() {
